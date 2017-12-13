@@ -202,7 +202,7 @@ lapu:function(){
 baltazar:function(){
 		let content = <div>
 				
-				<img src='img/baltazar.jpg' width='100%' />
+				<img src='img/balagtas.jpg' width='100%' />
 				<a href='#' className='btn-back' onClick={process.menu}>back</a>
 <br/>1788-1862
 <br/> More popularly known as Balagtas, he is considered the prince of Tagalog poets. Born in Panginay, Bigaa, Bulacan, on April 2, 1788. He wrote Florante at Laura, a masterpiece of local versification, upholding moral and social values; it served as the basic foundation of the Philippine literature. Died in Orion, Bataan, on February 20, 1862.
@@ -225,34 +225,19 @@ jacinto:function(){
 },
 	loading:function(){
 		let content = <div>
+
 					<div className="progressbar-infinite"></div>
-					<audio id="audio">
-						<source src="audio/LP.mp3" type="audio/mp3" />
-					</audio>
+					
 					<div align='center'>
 						<img src='img/image2.png' width='100px' />
 						<p> The past is behind, learn from it. The future is ahead, prepare for it. The persent is here, live it.     Thomas S. Monson</p>
-
-
-
-
-						Loading...
-					</div>
+							Loading...
+						</div>
 				</div>;
 		ReactDOM.render(content,document.getElementById('root'));
-		process.audio('audio').play();
-		process.replayAudio('audio');
+	
 	},
-	audio:function(audio){
-		let _audio = document.getElementById(audio);
-		return _audio;
-	},
-	replayAudio:function(audio){
-		process.audio(audio).addEventListener('ended',function(){
-			process.audio('audio').pause();
-			process.audio(audio).play();
-		})
-	}
+	
 }
 
 let counting = 0;
