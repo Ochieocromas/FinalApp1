@@ -1,3 +1,10 @@
+.navbar-inner{
+	background-color: Gray;
+	color: white;
+	text-align: center;
+}
+
+
 button{
 	color:blue;
 	font-size: 15px;
