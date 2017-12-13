@@ -3,12 +3,8 @@ let process = {
 		// let source_vid = 'https://www.youtube.com/watch?v=d-P7YUSKbpQ';
 		    // <iframe src={source_vid} width="100%" height='300px'/>
 		let content = <div>
-		    <div className="navbar">
-              <div className="navbar-inner">
-                <div className="center">Mga Bayani ng Bansang Pilipinas</div>
-              </div>
-            </div>
-			<ul><center>
+		 
+			<ul><center><p>Mga Bayani ng Bansang Pilipinas</p></center>
 				<li><a href='#' onClick={process.jose}> Jose Rizal </a></li>
 				<li><a href='#' onClick={process.andres}> Andres Bonifacio </a></li>
 				<li><a href='#' onClick={process.gregorio}> General Gregorio del Pilar </a></li>
