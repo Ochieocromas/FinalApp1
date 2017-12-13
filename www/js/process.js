@@ -195,10 +195,10 @@ lapu:function(){
 			ReactDOM.render(content,document.getElementById('root'));
 },
 
-makabulos:function(){
+baltazar:function(){
 		let content = <div>
 				
-				<img src='img/jose.jpg' width='100%' />
+				<img src='img/balagtas.jpg' width='100%' />
 				<a href='#' className='btn-back' onClick={process.menu}>back</a>
 <br/>1788-1862
 <br/> More popularly known as Balagtas, he is considered the prince of Tagalog poets. Born in Panginay, Bigaa, Bulacan, on April 2, 1788. He wrote Florante at Laura, a masterpiece of local versification, upholding moral and social values; it served as the basic foundation of the Philippine literature. Died in Orion, Bataan, on February 20, 1862.
